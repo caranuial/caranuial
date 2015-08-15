@@ -4,6 +4,26 @@ Your challenge, if you wish to accept it (and we sure hope you will), is to opti
 
 To get started, check out the repository, inspect the code,
 
+### Steps To Run
+
+To run: 
+1. Start web virtual machine.
+2. Download repository virtual machine folder.
+3. Open index.html in browser.
+
+### Optimizations
+
+For Background floating Pizzas : 
+	Recalculate amount of displayed pizzas that are moving. 
+	Added will-change for moving pizza class.
+	Doc selector outside of loop.
+	ScrollTop calculation outside loop of loop.
+For Pizza Resizing:
+	Using array instead of using switch for possible sizes of pizza.
+	Doc selector outside of loop.
+	Removing unused functions.
+Some other tweaks to variables that had been created within loops.
+
 ### Getting started
 
 Some useful tips to help you get started:
